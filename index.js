@@ -12,7 +12,9 @@ const express = require('express')
 //   console.log('DB Connected')
 // })
 
-const app = express()
+const aws_secret="AKIAIMNOJVGFDXXXE4OA"
+
+const app = express(aws_secret)
 
 const port = 5000
 
